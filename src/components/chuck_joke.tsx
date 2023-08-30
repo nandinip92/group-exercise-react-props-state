@@ -8,5 +8,4 @@ const ChuckJoke: React.FC<ChuckJokeProps> = ({ joke }) => (
     {joke.id}.{joke.joke}
   </p>
 );
-
 export default ChuckJoke;
